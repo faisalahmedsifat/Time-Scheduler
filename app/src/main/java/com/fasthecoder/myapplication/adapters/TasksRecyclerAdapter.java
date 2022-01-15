@@ -43,8 +43,10 @@ public class TasksRecyclerAdapter extends RecyclerView.Adapter<TasksRecyclerAdap
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
-        private TextView title, task_time, task_day ;
-        private AppCompatTextView label;
+        private final TextView title;
+        private final TextView task_time;
+        private final TextView task_day ;
+        private final AppCompatTextView label;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);

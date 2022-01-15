@@ -32,7 +32,7 @@ public class HomeFragment extends Fragment {
     private static final String TAG = "HomeScreen";
     private RecyclerView recyclerView;
 
-    private ArrayList<Task> tasks= new ArrayList<>();
+    private final ArrayList<Task> tasks= new ArrayList<>();
     private TasksRecyclerAdapter recyclerAdapter;
 
     public HomeFragment() {
